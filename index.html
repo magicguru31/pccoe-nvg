@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PCCOE Campus Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>PCCOE Campus Navigation System</h1>
+
+<div class="input-box">
+    <input id="start" type="text" placeholder="Enter Your Location">
+    <input id="end" type="text" placeholder="Where You Want To Go">
+    <button onclick="showRoute()">Show Route</button>
+</div>
+
+<div class="map-container">
+    <img id="campusMap" src="map.png" alt="PCCOE Map">
+    <canvas id="routeCanvas"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
